@@ -1,0 +1,28 @@
+{
+	"workbench.colorCustomizations": {
+		"activityBar.background": "#342B31",
+		"titleBar.activeBackground": "#493C45",
+		"titleBar.activeForeground": "#FBFAFA"
+	},
+	"sqltools.connections": [
+		{
+			"previewLimit": 50,
+			"server": "dbdades.somenergia.lan",
+			"port": 5432,
+			"driver": "PostgreSQL",
+			"name": "jardiner-dbt-pre",
+			"group": "somenergia",
+			"database": "plants",
+			"username": "jardiner",
+			"password": "ohch6keVe-agh0Ze"
+		},
+		{
+			"name": "DuckDB - tripdata.csv",
+			"accessMode": "Read/Write",
+			"previewLimit": 50,
+			"driver": "DuckDB",
+			"group": "zoomcamp",
+			"databaseFilePath": "/home/diego/Code/me/zoomcamp-dataengineering-2024/homework/hw01/trips.duckdb"
+		}
+	]
+}
